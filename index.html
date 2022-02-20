@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/app.css/style.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+      type="text/html"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+      type="text/html"
+    />
+    <title>Monster Killer</title>
+  </head>
+  <body>
+    <div id="upperBody">
+      <p> 
+         <span>👺</span> MONSTER HEALTH</p>
+      <progress max="100" value="100" id="monster_health"></progress>
+      
+      <p> <span>👨‍💼</span> PLAYER HEALTH </p>
+      <progress max="100" value="100" id="player_health">100%</progress>
+    </div>
+    <div id="lowerBody">
+      <button id="btnAttack">ATTACK</button>
+      <button id="btnStrong">STRONG ATTACK</button>
+      <button id="btnHeal">HEAL</button>
+      <button id="btnReset">RESET</button>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+    <script
+      src="../node_modules/jquery/dist/jquery.js"
+      type="text/html"
+    ></script>
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+      type="text/html"
+    ></script>
+  </body>
+</html>
